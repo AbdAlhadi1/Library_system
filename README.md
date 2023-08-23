@@ -1,9 +1,9 @@
 # Library_system
 C++ Consul Project
 # About This Project 
-Project Description: GitHub Medical Education Platform
+Project Description: Consul Education Platform
 
-The GitHub Medical Education Platform is a consul application that allows users to register and interact as doctors, doctor assistants, and students.
+This Education Platform is a consul application that allows users to register and interact as doctors, doctor assistants, and students.
 The platform provides various features and functionalities to facilitate medical education and collaboration. 
 
 User Roles:
