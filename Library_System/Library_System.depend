@@ -1,0 +1,284 @@
+# depslib dependency file v1.0
+1667577091 source:/home/abdalhadi/Documents/Library_System/main.cpp
+	<iostream>
+	"Headers/system.h"
+
+1665993522 source:/home/abdalhadi/Documents/Library_System/src/m.cpp
+
+1666173950 source:/home/abdalhadi/Documents/Library_System/src/log_in_menu.cpp
+	"../herads/log_in.h"
+	<iostream>
+
+1666685007 /home/abdalhadi/Documents/Library_System/herads/log_in.h
+
+1666423203 source:/home/abdalhadi/Documents/Library_System/src/log_in.cpp
+	"../herads/log_in.h"
+	"../herads/log_in_menu.h"
+	"../herads/sing_up.h"
+	"../herads/checker.h"
+	"../herads/verified.h"
+	<iostream>
+
+1665996610 /home/abdalhadi/Documents/Library_System/herads/log_in_menu.h
+
+1666076966 source:/home/abdalhadi/Documents/Library_System/src/check_user_exist.cpp
+	"../herads/check_user_exist.h"
+	<iostream>
+	<fstream>
+	<utility>
+
+1666076468 /home/abdalhadi/Documents/Library_System/herads/check_user_exist.h
+	<string>
+	<utility>
+
+1666684993 source:/home/abdalhadi/Documents/Library_System/src/sing_up.cpp
+	"../herads/sing_up.h"
+	"../herads/checker.h"
+	"../herads/ids.h"
+	<iostream>
+	<fstream>
+	<string>
+
+1666365185 /home/abdalhadi/Documents/Library_System/herads/sing_up.h
+	<string>
+
+1666167862 /home/abdalhadi/Documents/Library_System/herads/checker.h
+	<string>
+	<utility>
+
+1666173964 source:/home/abdalhadi/Documents/Library_System/src/checker.cpp
+	"../herads/checker.h"
+	<iostream>
+	<fstream>
+	<utility>
+	<regex>
+
+1666685138 source:/home/abdalhadi/Documents/Library_System/src/ids.cpp
+	"../herads/ids.h"
+	<string>
+	<fstream>
+	<iostream>
+
+1666684862 /home/abdalhadi/Documents/Library_System/herads/ids.h
+	<string>
+
+1666685270 /home/abdalhadi/Documents/Library_System/herads/verified.h
+	<string>
+
+1666366683 source:/home/abdalhadi/Documents/Library_System/src/doctor.cpp
+	"../herads/doctor.h"
+	"../herads/log_in.h"
+	<string>
+	<iostream>
+
+1666365700 /home/abdalhadi/Documents/Library_System/herads/Doctor.h
+
+1666366722 source:/home/abdalhadi/Documents/Library_System/src/verified.cpp
+	"../herads/verified.h"
+	"../herads/doctor.h"
+	<string>
+	<iostream>
+
+1666366732 /home/abdalhadi/Documents/Library_System/herads/doctor.h
+
+1666637942 source:/home/abdalhadi/Documents/Library_System/src/course.cpp
+	"../herads/course.h"
+	"../herads/ids.h"
+	<string>
+	<iostream>
+	<fstream>
+
+1666639758 /home/abdalhadi/Documents/Library_System/herads/course.h
+	<string>
+	<iostream>
+	<vector>
+
+1668497237 source:/home/abdalhadi/Documents/Library_System/Src/system_run.cpp
+	"../Headers/system.h"
+	"../Headers/log_in.h"
+	"../Headers/sign_up.h"
+
+1667636436 /home/abdalhadi/Documents/Library_System/Headers/system.h
+	<iostream>
+	<string>
+
+1667636388 /home/abdalhadi/Documents/Library_System/Headers/log_in.h
+	<string>
+	<iostream>
+
+1667636437 /home/abdalhadi/Documents/Library_System/Headers/sign_up.h
+	<iostream>
+	<string>
+	<fstream>
+
+1668594807 source:/home/abdalhadi/Documents/Library_System/Src/chacking.cpp
+	"../Headers/chacking.h"
+	"../Headers/get.h"
+
+1668594822 /home/abdalhadi/Documents/Library_System/Headers/chacking.h
+	<utility>
+	<string>
+	<fstream>
+	<iostream>
+	<regex>
+	<map>
+	<vector>
+
+1667640283 source:/home/abdalhadi/Documents/Library_System/Src/log_in.cpp
+	"../Headers/log_in.h"
+	"../Headers/chacking.h"
+	"../Headers/distribute.h"
+
+1667644090 source:/home/abdalhadi/Documents/Library_System/Src/id.cpp
+	"../Headers/id.h"
+
+1667636364 /home/abdalhadi/Documents/Library_System/Headers/id.h
+	<string>
+	<iostream>
+	<fstream>
+
+1667979741 source:/home/abdalhadi/Documents/Library_System/Src/sign_up.cpp
+	"../Headers/sign_up.h"
+	"../Headers/chacking.h"
+	"../Headers/id.h"
+	"../Headers/distribute.h"
+
+1668608354 source:/home/abdalhadi/Documents/Library_System/Src/doctor_function.cpp
+	"../Headers/doctor_function.h"
+	"../Headers/id.h"
+	"../Headers/assignment.h"
+	"../Headers/chacking.h"
+	"../Headers/get.h"
+	"../Headers/messages.h"
+	"../Headers/posts.h"
+
+1668689790 /home/abdalhadi/Documents/Library_System/Headers/doctor_function.h
+	<iostream>
+	<string>
+	<vector>
+	<utility>
+	<set>
+	<algorithm>
+	<map>
+
+1668496974 source:/home/abdalhadi/Documents/Library_System/Src/distribute.cpp
+	"../Headers/distribute.h"
+	"../Headers/doctor.h"
+	"../Headers/student.h"
+	"../Headers/teacher_assistant.h"
+
+1667636167 /home/abdalhadi/Documents/Library_System/Headers/distribute.h
+	<string>
+	<iostream>
+
+1668608472 source:/home/abdalhadi/Documents/Library_System/Src/doctor.cpp
+	"../Headers/doctor.h"
+
+1667825679 /home/abdalhadi/Documents/Library_System/Headers/doctor.h
+	"../Headers/doctor.h"
+	"../Headers/doctor_function.h"
+	"../Headers/chacking.h"
+	<string>
+	<iostream>
+
+1668609809 source:/home/abdalhadi/Documents/Library_System/Src/assignment.cpp
+	"../Headers/assignment.h"
+	"../Headers/id.h"
+	"../Headers/get.h"
+	"../Headers/chacking.h"
+
+1668426900 /home/abdalhadi/Documents/Library_System/Headers/assignment.h
+	<iostream>
+	<string>
+	<fstream>
+	<vector>
+	<algorithm>
+	<utility>
+
+1668595982 /home/abdalhadi/Documents/Library_System/Headers/get.h
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+
+1668595964 source:/home/abdalhadi/Documents/Library_System/Src/get.cpp
+	"../Headers/get.h"
+
+1668608503 source:/home/abdalhadi/Documents/Library_System/Src/studnet.cpp
+	"../Headers/student.h"
+	"../Headers/student_function.h"
+	"../Headers/chacking.h"
+	"../Headers/messages.h"
+	"../Headers/posts.h"
+
+1668170249 /home/abdalhadi/Documents/Library_System/Headers/student.h
+	<iostream>
+	<string>
+
+1668608354 source:/home/abdalhadi/Documents/Library_System/Src/student_function.cpp
+	"../Headers/student_function.h"
+	"../Headers/get.h"
+	"../Headers/chacking.h"
+	"../Headers/messages.h"
+	"../Headers/posts.h"
+
+1668608043 /home/abdalhadi/Documents/Library_System/Headers/student_function.h
+	<iostream>
+	<string>
+	<algorithm>
+	<vector>
+	<fstream>
+	<map>
+
+1668608553 source:/home/abdalhadi/Documents/Library_System/Src/teacher_assistant.cpp
+	"../Headers/teacher_assistant.h"
+	"../Headers/teacher_assistant_functions.h"
+	"../Headers/doctor_function.h"
+	"../Headers/posts.h"
+
+1668496753 /home/abdalhadi/Documents/Library_System/Headers/teacher_assistant.h
+	<set>
+	<iostream>
+	<string>
+	<vector>
+	<utility>
+	<fstream>
+
+1668608065 /home/abdalhadi/Documents/Library_System/Headers/teacher_assistant_functions.h
+	<set>
+	<iostream>
+	<string>
+	<vector>
+	<utility>
+	<fstream>
+
+1668608561 source:/home/abdalhadi/Documents/Library_System/Src/teacher_assistant_functions.cpp
+	"../Headers/teacher_assistant_functions.h"
+	"../Headers/get.h"
+	"../Headers/messages.h"
+	"../Headers/posts.h"
+
+1668602121 source:/home/abdalhadi/Documents/Library_System/Src/messages.cpp
+	"../Headers/messages.h"
+	"../Headers/get.h"
+	"../Headers/id.h"
+	"../Headers/chacking.h"
+
+1668604588 /home/abdalhadi/Documents/Library_System/Headers/messages.h
+	<iostream>
+	<string>
+	<vector>
+	<fstream>
+
+1668596251 source:/home/abdalhadi/Documents/Library_System/Src/posts.cpp
+	"../Headers/posts.h"
+	"../Headers/get.h"
+	"../Headers/id.h"
+	"../Headers/chacking.h"
+
+1668596291 /home/abdalhadi/Documents/Library_System/Headers/posts.h
+	<string>
+	<iostream>
+	<fstream>
+	<vector>
+

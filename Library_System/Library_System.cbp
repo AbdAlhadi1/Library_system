@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Library_System" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Library_System" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Library_System" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Headers/assignment.h" />
+		<Unit filename="Headers/chacking.h" />
+		<Unit filename="Headers/distribute.h" />
+		<Unit filename="Headers/doctor.h" />
+		<Unit filename="Headers/doctor_function.h" />
+		<Unit filename="Headers/get.h" />
+		<Unit filename="Headers/id.h" />
+		<Unit filename="Headers/log_in.h" />
+		<Unit filename="Headers/messages.h" />
+		<Unit filename="Headers/posts.h" />
+		<Unit filename="Headers/sign_up.h" />
+		<Unit filename="Headers/student.h" />
+		<Unit filename="Headers/student_function.h" />
+		<Unit filename="Headers/system.h" />
+		<Unit filename="Headers/teacher_assistant.h" />
+		<Unit filename="Headers/teacher_assistant_functions.h" />
+		<Unit filename="Src/assignment.cpp" />
+		<Unit filename="Src/chacking.cpp" />
+		<Unit filename="Src/distribute.cpp" />
+		<Unit filename="Src/doctor.cpp" />
+		<Unit filename="Src/doctor_function.cpp" />
+		<Unit filename="Src/get.cpp" />
+		<Unit filename="Src/id.cpp" />
+		<Unit filename="Src/log_in.cpp" />
+		<Unit filename="Src/messages.cpp" />
+		<Unit filename="Src/posts.cpp" />
+		<Unit filename="Src/sign_up.cpp" />
+		<Unit filename="Src/student_function.cpp" />
+		<Unit filename="Src/studnet.cpp" />
+		<Unit filename="Src/system_run.cpp" />
+		<Unit filename="Src/teacher_assistant.cpp" />
+		<Unit filename="Src/teacher_assistant_functions.cpp" />
+		<Unit filename="main.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
